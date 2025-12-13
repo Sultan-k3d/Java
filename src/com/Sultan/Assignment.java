@@ -96,6 +96,6 @@ public class Assignment {
         } else  {
             System.out.println("its not a palindrome number ");
         }
-        
+
     }
 }
