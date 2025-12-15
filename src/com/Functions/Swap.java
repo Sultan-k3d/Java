@@ -2,7 +2,12 @@ package com.Functions;
 
 public class Swap {
     public static void main(String[] args) {
-        swap(2,3);
+        int a = 10;
+        int b = 20;
+        swap(a,b);
+        System.out.println(a);
+        System.out.println(b);
+
     }
     public static void swap (int a , int b) {
         int temp = a;
