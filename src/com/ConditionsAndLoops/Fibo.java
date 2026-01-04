@@ -7,9 +7,14 @@ public class Fibo {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a number:- ");
         int n = in.nextInt();
+
+        if(n < 0) {
+            System.out.println("Please enter a positive number ");
+            return;
+        }
+
         int a = 0;
         int b = 1;
-
         for(int i = 2; i <= n; i++) {
             int next = a  + b;
             a = b;
